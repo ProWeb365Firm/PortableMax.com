@@ -1,0 +1,65 @@
+/*
+Theme Name:     Voice Child
+Theme URI:      https://mekshq.com/theme/voice/
+Description:    Child theme for the Voice Theme
+Author:         meks
+Author URI:     https://mekshq.com
+Template:       voice
+Version:        0.1.0
+*/
+.site-title a{
+	font-size: 45px !important;
+	line-height: 60px !important;
+}
+.header-sticky .site-title a{
+	font-size: 36px !important;
+	line-height: 40px !important;
+}
+.vce-logo img{
+	width: 240px;
+}
+.main-header, .header-sticky, .sidr{
+	background-color: #fff !important;
+}
+.header-3-wrapper .nav-menu > li > a, .header-sticky .nav-menu > li > a{
+	color: #000000;
+}
+.header-3-wrapper .nav-menu > li.current-menu-item > a, .header-sticky .nav-menu > li.current-menu-item > a{
+	color: #1abc9c;
+}
+h1.entry-title{
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 0 0 8px 30px;
+    font-weight: 500;
+}
+.entry-meta{
+	text-align: left;
+	margin: 0 0 0 30px;
+}
+p{
+	margin-bottom: 15px;
+}
+@media(max-width: 767px){
+	body h1.entry-title{
+		margin: 0 auto 7px auto;
+	}
+	.entry-meta {
+	    text-align: left;
+	    margin: 0 0 0 20px;
+	}
+	.sidebar{
+		max-width: 100%;
+	}
+	.sidebar .vce-post-list .featured_image_sidebar{
+		width: 115px;
+	}
+}
+@media(min-width: 768px) and (max-width: 992px){
+	.sidebar{
+		max-width: 100%;
+	}
+	.sidebar .vce-post-list .featured_image_sidebar{
+		width: 115px;
+	}
+}
